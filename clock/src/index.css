@@ -107,6 +107,7 @@ header{
   .nav-link.active{
     top:10%;
     transition: all 5s ease-in;
+    /*transition duh*/
   }
 }
 
