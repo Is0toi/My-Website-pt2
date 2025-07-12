@@ -8,7 +8,7 @@ body{
   background-color:#BEE0FE;
   min-height:100vh;
   position: relative;
-  font-family: Cambria
+  font-family: Cambria;
 }
 
 /*body::before{
@@ -71,9 +71,47 @@ header{
 
 .container ul li a:hover{
   /* THIS IS WHAT MAKES IT ANIMATED "hover"*/
-  background-color:#ecf0f1;
-
+  background-color:#ecf7fe;
 }
+
+.icon{
+  font-size:1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media(max-width: 768px){
+  /* This occurs when the screen gets the 768px there will be a hamburger menu!*/
+  .content h2{
+    font-size: 4rem;
+    font-align: center;
+  }
+
+  .icon{
+    display:block;
+    padding: 40px;
+  }
+
+  .container .nav-link{
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: #fff;
+    position: absolute;
+    width:350px;
+    height:60vh;
+    top:-800px;
+    right:0;
+    z-index:10;
+  }
+
+  .nav-link.active{
+    top:10%
+  }
+}
+
+
+
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
