@@ -14,10 +14,24 @@
 
 .light .navbar {
   background-color: #ffffff;
-  color: #000000;
+  color: #384868;
+  transition:color 0.3s ease, color 0.3s ease;
+  transition:background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark .navbar {
-  background-color: #1e1e1e;
+  background-color: #384868;
   color: #f0f0f0;
+  transition:color 0.3s ease, color 0.3s ease;
+  transition:background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark .container nav .Title {
+  color: white;
+  transition:color 0.3s ease, color 0.3s ease;
+  
+}
+
+.navbar, .navlink a, header{
+    transition:background-color 0.3s ease, color 0.3s ease;
 }
