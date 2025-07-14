@@ -46,7 +46,7 @@ header{
 
 .container nav .Title{
   color: #212a3c;
-  font-size:1.2rem;
+  font-size:2rem;
 }
 
 .container .nav-link li{
@@ -74,7 +74,7 @@ header{
   background-color:#ecf7fe;
 }
 
-.icon{
+.hamburger{
   font-size:1.5rem;
   cursor: pointer;
   display: none;
@@ -87,7 +87,7 @@ header{
     font-align: center;
   }
 
-  .icon{
+  .hamburger{
     display:block;
     padding: 40px;
   }

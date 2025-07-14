@@ -12,11 +12,7 @@ function App() {
     return (
         <Router>
         <div className={isDark ? "dark" : "light"}>
-            <Toggle
-                isChecked = {isDark}
-                handleChange = {() => setIsDark(!isDark)}
-            />
-            <NavBar />
+            <NavBar isDark={isDark} setIsDark={setIsDark} />
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />

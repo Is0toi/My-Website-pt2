@@ -1,9 +1,23 @@
-.toggle-container{
-    position:absolute;
-    top:2em;
-    left: 2em;
+.toggle-container {
+  display: flex;
+  align-items: center;
 }
 
-.toggle{
-    visibility:hidden;
+.toggle {
+  visibility: hidden;
+}
+
+.toggle + label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.toggle + label svg {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.toggle:checked + label svg {
+  transform: rotate(180deg);
 }

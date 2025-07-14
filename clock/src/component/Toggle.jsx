@@ -15,3 +15,5 @@ export const Toggle = ({handleChange, isChecked}) => {
         </div>
     );
 }
+
+export default Toggle;
