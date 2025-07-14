@@ -15,7 +15,7 @@
 }
 
 .toggle + label svg {
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: transform 1s ease, color 1s ease;
 }
 
 .toggle:checked + label svg {
