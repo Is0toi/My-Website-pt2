@@ -1,4 +1,4 @@
-//import './Toggle.css';
+import './Toggle.css';
 import { CiLight } from "react-icons/ci";
 
 export const Toggle = ({handleChange, isChecked}) => {
@@ -11,7 +11,7 @@ export const Toggle = ({handleChange, isChecked}) => {
             onChange ={handleChange}
             checked = {isChecked}
             />
-            <label htmlFor="check">Dark Mode</label>
+            <label htmlFor="check"><CiLight size={50}/></label>
         </div>
     );
 }
