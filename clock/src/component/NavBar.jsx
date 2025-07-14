@@ -19,7 +19,7 @@ function NavBar() {
         </div>
         <ul className={isOpen ? "nav-link active" : "nav-link"}>
             <li><Link to = "/home"> Home</Link></li>
-            <li><Link to  = "/project"> Project</Link></li>
+            <li><Link to  = "/projects"> Projects</Link></li>
             <li><Link to  = "/contacts"> Contacts</Link></li>
         </ul>
         <div className="icon" onClick = {toggleMenu}>
