@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
-import cat from './cat.jpg';
 
 
 function Home() {
@@ -19,7 +18,7 @@ function Home() {
                 <li> I am working on this website so that I can go to a hackathon in Boston with my boyyfriendddd!</li>
                 <li> I really like cats:</li>
             </ul>
-            <img className = "cat-pic" src={cat} alt="cat" />
+            <img className="cat-pic" src="/cat.jpg" alt="cat" />
         </div>
     );
 
