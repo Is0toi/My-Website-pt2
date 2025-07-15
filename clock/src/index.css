@@ -81,6 +81,8 @@ header{
   display: none;
 }
 
+
+
 @media(max-width: 768px){
   /* This occurs when the screen gets the 768px there will be a hamburger menu!*/
   .content h2{
@@ -91,6 +93,10 @@ header{
   .hamburger{
     display:block;
     padding: 40px;
+    
+  }
+  .dark .hamburger{
+  background-color: #384868;
   }
 
   .container .nav-link{
@@ -103,11 +109,17 @@ header{
     top:-800px;
     right:0;
     z-index:10;
+    border-radius: 25px;
+    /* This is the box around the links during the hamburger menu */
+  }
+
+  .dark .container .nav-link{
+    background-color:#384868
   }
 
   .nav-link.active{
-    top:10%;
-    transition: all 5s ease-in;
+    top:15%;
+    transition: all 0.5s ease-in;
     /*transition duh*/
   }
 }
@@ -158,20 +170,25 @@ header{
 .home-title{
   text-align:center;
   font-size:50px;
-  font-family:sans-serif;
+  font-family:italic;
   margin-top:50px;
+  /* font-weight:500; */
 }
 
 .about-me-text{
   text-align:center;
   font-size:30px;
-  font-family:sans-serif;
+  font-family:italic;
   margin-top:50px;
+  line-height: 3rem;
 }
 
 .funfacts{
-  text-align:center;
-  font-size:20px;
-  font-family:sans-serif;
-  margin-top:50px;
+  list-style-type: "-";
+  list-style-position: inside;
+  text-align: center;
+  font-size: 25px;
+  font-family: italic;
+  margin-top: 10px;
 }
+
