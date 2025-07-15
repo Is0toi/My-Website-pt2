@@ -6,7 +6,8 @@ function Projects() {
     return (
         <div>
             <div className="card">
-                
+                <img></img>
+                <h2></h2>
 
             </div>
         </div>

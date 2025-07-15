@@ -20,6 +20,7 @@ function App() {
                 <Route path="/contacts" element={<Contacts />} />
             </Routes>
         </div>
+        <Projects/>
         </Router>
     );
 }

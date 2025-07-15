@@ -202,3 +202,15 @@ header{
   margin-top:10px;
   border-radius: 25px;
 }
+
+.card{
+  border: 1px solid;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width:250px;
+  display: inline-block;
+
+}
