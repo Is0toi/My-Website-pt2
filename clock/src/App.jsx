@@ -5,7 +5,8 @@ import './index.css';
 import Home from "./component/Home";
 import Projects from "./component/Projects";
 import Contacts from "./component/Contacts";
-import {Toggle} from "./component/Toggle";
+
+
 
 function App() {
     const [isDark, setIsDark] = useState(false);

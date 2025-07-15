@@ -97,6 +97,7 @@ header{
   }
   .dark .hamburger{
   background-color: #384868;
+  transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   .container .nav-link{
@@ -110,16 +111,19 @@ header{
     right:0;
     z-index:10;
     border-radius: 25px;
+    
     /* This is the box around the links during the hamburger menu */
   }
 
   .dark .container .nav-link{
-    background-color:#384868
+    background-color:#384868;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
   }
 
   .nav-link.active{
     top:15%;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
     /*transition duh*/
   }
 }
@@ -192,3 +196,9 @@ header{
   margin-top: 10px;
 }
 
+.cat-pic{
+  display: block;
+  margin: auto;
+  margin-top:10px;
+  border-radius: 25px;
+}
