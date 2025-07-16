@@ -15,10 +15,12 @@ function App() {
         <div className={isDark ? "dark" : "light"}>
             <NavBar isDark={isDark} setIsDark={setIsDark} />
             <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contacts" element={<Contacts />} />
             </Routes>
+
+            
         </div>
         </Router>
     );

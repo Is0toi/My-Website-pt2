@@ -153,7 +153,7 @@ header{
 }
 
 .light .nav-link a{
-  color:#212a3c
+  color:#212a3c;
 }
 .dark .nav-link a {
   color: #ffffff;
@@ -220,5 +220,38 @@ header{
   background-color:#384868;
   box-shadow: 2px 3px 2px white;
   transition: background-color 0.3 ease, color 0.3s ease;
+}
+
+.light .contact a{
+  color:#212a3c
+}
+.dark .contact a {
+  color: #ffffff;
+}
+
+.dark .contact a:hover {
+  background-color: #2f3d58;
+
+  /* Specific hovers for dark mode */
+}
+
+.contact{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align:center;
+  transition: color 0.3s ease;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.contact-section{
+  display: flex;
+}
+
+.dark .contact-section{
+  color:#ffff;
 }
 

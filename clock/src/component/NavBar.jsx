@@ -25,7 +25,7 @@ function NavBar({ isDark, setIsDark }) {
                     </div>
 
                     <ul className={isOpen ? "nav-link active" : "nav-link"}>
-                        <li><Link to="/home"> Home</Link></li>
+                        <li><Link to="/"> Home</Link></li>
                         <li><Link to="/projects"> Projects</Link></li>
                         <li><Link to="/contacts"> Contacts</Link></li>
                     </ul>
