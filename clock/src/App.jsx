@@ -4,7 +4,7 @@ import NavBar from "./component/NavBar";
 import './index.css';
 import Home from "./component/Home";
 import Projects from "./component/Projects";
-import Contacts from "./component/Contacts";
+import Canada from "./component/Canada";
 
 
 
@@ -17,7 +17,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
-                <Route path="/contacts" element={<Contacts />} />
+                <Route path="/canada" element={<Canada />} />
             </Routes>
 
             

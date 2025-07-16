@@ -255,3 +255,15 @@ header{
   color:#ffff;
 }
 
+.special-title{
+  font-family: cursive;
+  text-align: center;
+}
+
+.flag{
+  display:block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); */
+}

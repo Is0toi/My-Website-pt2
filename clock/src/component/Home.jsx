@@ -36,7 +36,7 @@ function Home() {
             <ul className="funfacts">
                 <p>––––––––––––––––––––––––––––––––––</p>
                 <li> I am Canadian and haven been raised in Cananda for 9 years</li>
-                <li> I've traveled around the world like Florida, Georiga, California, and my favorite Chicago</li>
+                <li> I've traveled around the world like Florida, Georgia, California, and my favorite Illinois</li>
                 <li> I am working on this website so that I can go to a hackathon in Boston with my boyyfriendddd!</li>
                 <li> I really like cats:</li>
             </ul>
