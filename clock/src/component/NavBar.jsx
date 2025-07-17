@@ -27,7 +27,7 @@ function NavBar({ isDark, setIsDark }) {
                     <ul className={isOpen ? "nav-link active" : "nav-link"}>
                         <li><Link to="/"> Home</Link></li>
                         <li><Link to="/projects"> Projects</Link></li>
-                        <li><Link to="/canada"> Canada 🇨🇦</Link></li>
+                        <li><Link to="/canada"> 🇨🇦 Canada</Link></li>
                     </ul>
                     <div className="hamburger" onClick={toggleMenu}>
                         <FaBars />

@@ -267,3 +267,24 @@ header{
   margin: auto;
   /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); */
 }
+
+.audio{
+  justify-content: center;
+  align-items: center;
+}
+
+.canada-card{
+  border: 1px solid;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+  display: inline-block;
+  max-width: 400px;
+  background-color:#febfbe;
+}
+
+.link-font{
+  color:black;
+}
