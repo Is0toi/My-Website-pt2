@@ -77,7 +77,7 @@ function Projects() {
 
             <a className="link-font" href="https://drive.google.com/file/d/10TYzNUEFXEFXJRHB-EPoW-1cF7d_2Ocu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <div className="card">
-                    <img className="ice-skating-icon" src='./ice-skating.jpg' alt="ice skating icon" style={{ width: '220px', height: '230px' }}></img>
+                    <img className="ice-skating-icon" src='./Ice-skating.jpg' alt="ice skating icon" style={{ width: '220px', height: '230px' }}></img>
                     <h2>Ice Skating</h2>
                     <p> I'm canadian, I have to know how to be a pro at skating</p>
                 </div>
