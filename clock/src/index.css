@@ -269,6 +269,7 @@ header{
 }
 
 .audio{
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -283,6 +284,25 @@ header{
   display: inline-block;
   max-width: 400px;
   background-color:#febfbe;
+  
+}
+
+.canada-card:hover{
+  transform: scale(1.05);
+}
+
+.dark .canada-card{
+  background-color:rgb(114, 0, 0);
+  color:white;
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+.special-title{
+  color:black;
+  font-size: 5em;
+}
+.dark .special-title{
+  color: white;
 }
 
 .link-font{
@@ -313,4 +333,16 @@ header{
   width:80px;
   border-radius: 8px;
  
+}
+
+.canadaBackground{
+  background-color: rgb(249, 220, 220);
+}
+
+.dark .canadaBackground{
+  background-color:#852828;
+}
+
+.card:hover{
+  transform: scale(1.05);
 }

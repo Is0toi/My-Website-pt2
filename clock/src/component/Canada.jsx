@@ -14,11 +14,11 @@ function Canada() {
         }
     };
     return (
-        <div style={{ backgroundColor: 'white' }}>
+        <div className = "canadaBackground">
             <div style={{ backgroundColor: '#d40104' }}>
                 <video className="flag" src="/flag.mp4" autoPlay loop muted />
             </div>
-            <h1 className="special-title" > ALL ABOUT MY HOMETOWN CANADA!!</h1>
+            <h1 className="special-title"> ALL ABOUT MY HOMETOWN CANADA!!</h1>
             <div className="audio">
                 <audio ref={audioRef} src="/Anthem.mp3" controls loop />
             </div>
@@ -42,7 +42,7 @@ function Canada() {
 
             <a className="link-font" href="https://www.youtube.com/shorts/gqraNfE9PJg" target="_blank" rel="noopener noreferrer">
                 <div className="canada-card" >
-                    <img className="wedges" src='./tim-hortons.jpg' alt="wedges" style={{ width: '250px', height: '225px' }}></img>
+                    <img className="wedges" src='./tim-hortons.jpg' alt="wedges" style={{ width: '250px', height: '215px' }}></img>
                     <h2>Tim Hortons</h2>
                     <p> Best fast food in the world I tell you. My recommendation is the wedges. Also I'm bostonian so yes I do see a dunkin' every block</p>
 
