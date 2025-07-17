@@ -288,3 +288,29 @@ header{
 .link-font{
   color:black;
 }
+
+.spotify{
+  text-align:center;
+  border: 1px solid;
+  border-radius: 25px;
+  padding:20px;
+  width:400px;
+  margin: 0 auto; 
+  background-color:#c0c2ff
+  /* border: 1px solid;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+  max-width: 400px;
+  background-color:#febfbe; */
+}
+.dark .spotify{
+  background-color:#575988;
+  transition:color 0.5s ease, background-color 0.5s ease;
+}
+
+.album{
+  width:80px;
+  border-radius: 8px;
+ 
+}

@@ -5,19 +5,20 @@ import { CgMail } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Discord from "./Discord";
 
 function Home() {
     return (
         <div>
             <h1 className="home-title"> Jessie Wang // isotoi</h1>
-            <div className = "contact">
-                <div className = "contact-section">
-                    <CgMail/>
+            <div className="contact">
+                <div className="contact-section">
+                    <CgMail />
                     <p> jessicastalentlife@gmail.com</p>
                 </div>
                 <div >
                     <FaGithub />
-                   <a href="https://github.com/Is0toi" target="_blank" rel="noopener noreferrer"> Github</a>
+                    <a href="https://github.com/Is0toi" target="_blank" rel="noopener noreferrer"> Github</a>
                 </div>
                 <div >
                     <FaInstagram />
@@ -28,7 +29,16 @@ function Home() {
                     <a href="https://www.youtube.com/@jessiewangvolleyball2026" target="_blank" rel="noopener noreferrer"> Volleyball Youtube Channel</a>
                 </div>
             </div>
-            <p style={{ textAlign: "center", fontSize: "1rem"}}>–––––––––––––––––––––––––––––––––––––––––––––</p>
+
+            <p style={{ textAlign: "center", fontSize: "1rem" }}>–––––––––––––––––––––––––––––––––––––––––––––</p>
+
+            <div className="discordStatus">
+                <Discord/>
+
+            </div>
+
+
+            <p style={{ textAlign: "center", fontSize: "1rem" }}>–––––––––––––––––––––––––––––––––––––––––––––</p>
             <div className="about-me-text">
                 <p > Hi! my name is Jessie Wang and I am 17 years old. I enjoy coding and volleyball. I currently live in Massachusetts. Volleyball is a passion and I've won multiple awards for it like being featured on the Boston Globe. </p>
                 <p >Here are some fun facts about me:</p>
