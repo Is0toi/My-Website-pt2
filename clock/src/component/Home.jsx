@@ -1,20 +1,42 @@
-import React from "react";
+import {useState} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import { CgMail } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaCopy } from "react-icons/fa";
 import Discord from "./Discord";
 
 function Home() {
+    const [copySuccess, setCopySuccess] = useState("");
+
+    const handleCopy = () => {
+        navigator.clipboard.writeText("jessiewang2026@gmail.com")
+            .then(() => {
+                setCopySuccess("Copied!");
+                setTimeout(() => setCopySuccess(""), 2000);
+            })
+            .catch(err => {
+                console.error("Failed to copy :(", err);
+                setCopySuccess("Failed");
+            });
+
+
+    };
+
     return (
         <div>
             <h1 className="home-title"> Jessie Wang // isotoi</h1>
             <div className="contact">
                 <div className="contact-section">
+                    <button className = "copy" onClick={handleCopy}>
+                        <FaCopy />
+                    </button>
+                    {copySuccess && <span style={{ maringLeft: "10px", color: "green" }}>{copySuccess}</span>}
                     <CgMail />
-                    <p> jessicastalentlife@gmail.com</p>
+                    <p style={{ display: "inline", marginRight: "10px" }}> jessiewang2026@gmail.com</p>
+                    
                 </div>
                 <div >
                     <FaGithub />
@@ -33,7 +55,7 @@ function Home() {
             <p style={{ textAlign: "center", fontSize: "1rem" }}>–––––––––––––––––––––––––––––––––––––––––––––</p>
 
             <div className="discordStatus">
-                <Discord/>
+                <Discord />
 
             </div>
 

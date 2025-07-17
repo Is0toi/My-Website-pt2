@@ -358,3 +358,10 @@ header{
 .spotify:hover{
   transform:scale(1.05);
 }
+
+.copy{
+  cursor:pointer;
+  background-color: transparent;
+  border:none;
+  margin-right:10px;
+}
